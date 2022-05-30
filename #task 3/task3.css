@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://img.freepik.com/free-vector/clouds-background-with-stars-text-soace_1017-25499.jpg?t=st=1653921711~exp=1653922311~hmac=c92b04885b71610136fe7d89ff451e956705420a18d715a487514f48cf74baec&w=900);
+}
+h1 {
+  margin-top: -25%;
+  margin-right: -40%;
+  text-transform: uppercase;
+  color: rgb(36, 34, 34);
+}
+.container {
+  width: 450px;
+  background-color: #fff;
+  padding: 70px 40px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.parameter {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #d2d2d2;
+  outline: none;
+  margin-top: 8px;
+  padding: 0 10px;
+}
+
+input:focus {
+  border-color: #5e8b7e;
+}
+span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button {
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+.button .con {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fff;
+  border: 2px solid #fff;
+}
+.button .con:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.button .clr {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fff;
+  border: 2px solid #fff;
+  margin-top: 15px;
+}
+.button .clr:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
